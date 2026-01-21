@@ -46,7 +46,7 @@ function BlueprintsPage() {
   };
 
   return (
-    <div>
+      <div className="section">
       <h2>Create Blueprint</h2>
 
       <input

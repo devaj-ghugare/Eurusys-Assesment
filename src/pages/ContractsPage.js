@@ -34,7 +34,7 @@ function ContractsPage() {
   };
 
   return (
-    <div>
+    <div className="contract-card">
       <h2>Contracts</h2>
 
       {contracts.map((contract) => (

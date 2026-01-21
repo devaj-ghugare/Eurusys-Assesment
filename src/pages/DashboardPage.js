@@ -21,7 +21,7 @@ function DashboardPage() {
   });
 
   return (
-    <div>
+    <div className="section">
       <h2>Contract Dashboard</h2>
 
       <select value={filter} onChange={(e) => setFilter(e.target.value)}>
